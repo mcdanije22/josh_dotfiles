@@ -111,7 +111,6 @@ alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/co
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-export GITHUB_OAUTH_TOKEN=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
 
 export GOPRIVATE=github.com/Bestowinc/*
 
@@ -127,6 +126,8 @@ if [ -f '/Users/josh.mcdaniel/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/j
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/josh.mcdaniel/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/josh.mcdaniel/google-cloud-sdk/completion.zsh.inc'; fi
+
+. /usr/local/opt/asdf/libexec/asdf.sh
 
 . /usr/local/opt/asdf/libexec/asdf.sh
 
